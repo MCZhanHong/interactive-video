@@ -1,0 +1,297 @@
+#videobox{
+
+	display: inline;
+	width: 640px;
+	height: 480px;
+}
+#video{
+	width: 640px;
+	height: 420px;
+}
+#main{
+	display: inline;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-left: -320px;
+	margin-top: -240px;
+}
+#main:-webkit-full-screen{
+	top: 0px;
+	left: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+	height:100%;
+	background-color: black;
+}
+#inter-video{
+	display: none;
+	width: 100%;
+	height:95%;
+	z-index: 0;
+}
+#controls{
+	width: 100%;
+	height: 45px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background: rgb(42,42,42);
+	z-index: 1000;
+	
+}
+#play{
+	display: inline;
+	position: absolute;
+	height: 40%;
+	left: 3%;
+	top: 30%;
+}
+#play:hover{
+	cursor: pointer;
+}
+#pause{
+	display: none;
+	position: absolute;
+	height: 40%;
+	left: 3%;
+	top: 30%;
+}
+#pause:hover{
+	cursor: pointer;
+}
+#play1{
+	position: absolute;
+	display: inline;
+	width: 75%;
+	height: 80%;
+	z-index: -1;
+	margin-left: 60px;
+}
+#play1:hover{
+	cursor: pointer;
+}
+#playprocess{
+	display: inline;
+	position: absolute;
+	width: 100%;
+	height: 25%;
+	left: 0px;
+	top: 50%;
+	border-radius: 5px 5px 5px 5px;
+	background: rgb(79,79,79);
+
+}
+#playprocess1{
+	display: inline;
+	position: absolute;
+	width: 0px;
+	height: 25%;
+	left: 0px;
+	top: 50%;
+	border-radius: 5px 5px 5px 5px;
+	background: rgb(20,200,200);
+	z-index: 100;
+}
+#playcontrol{
+	position: absolute;
+	border-radius: 6px;
+	height: 12px;
+	width: 12px;
+	left: -6px;
+	top: -2px;
+	background: white;
+	z-index: 1000;
+}
+#timeplay{
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	width: 150px;
+	height: 25px;
+}
+#ntime{
+	
+	left: 0px; 
+	font-size: 0.8em;
+	color: #fff;
+
+}
+#xtime{
+	
+	font-size: 0.8em;
+	color: #fff;
+}
+#ctime{
+	
+	font-size: 0.8em;
+	color: #fff;
+}
+#volume{
+	display: inline;
+	position: absolute;
+	height: 100%;
+	width: 8%;
+	right: 6%;
+}
+#volumeopen{
+	display: inline;
+	position: absolute;
+	height: 40%;
+	right:35%;
+	top: 30%;
+	z-index: 1000;
+}
+#volumeopen:hover{
+	cursor: pointer;
+}
+#volumeclose{
+	display:none;
+	position: absolute;
+	height: 40%;
+	right: 35%;
+	top: 30%;
+	z-index: 1000;
+}
+#volumeclose:hover{
+	cursor: pointer;
+}
+#volumecontrol{
+	display: none;
+	position: absolute;
+	width:50px;
+	height: 145px;
+	right: 10%;
+	bottom: 0px;
+	background:rgb(79,79,79);
+	border-radius: 5px 5px 0 0;
+	z-index: 100;
+}
+#volume-bar-holder{
+	position: absolute;
+	width: 50%;
+	height: 90px;
+	top: 8%;
+	left: 25%;
+	background:rgb(79,79,79);
+}
+#volume-bar-holder:hover{
+	cursor: pointer;
+}
+#volume-bar{
+	position: absolute;
+	border-radius: 5px 5px 5px 5px;
+	width: 80%;
+	height: 95%;
+	left: 10%;
+	background:rgb(42,42,42);
+
+}
+#volume-bar1{
+	position: absolute;
+	border-radius: 5px 5px 5px 5px;
+	width: 80%;
+	height: 80px;
+	left: 10%;
+	bottom:5%; 
+	background:rgb(20,200,200);
+	z-index: 100;
+}
+#volume-button{
+	position: absolute;
+	border-radius: 10px;
+	height: 20px;
+	width: 20px;
+	top: -5px;
+	background: white;
+	z-index: 1000;
+}
+#fullscreen{
+	position: absolute;
+	display: inline;
+	height: 20px;
+	width: 20px;
+	top: 15px;
+	right: 15px;
+	color: white;
+
+}
+#fullscreen:hover{
+	cursor: pointer;
+}
+#exitfullscreen{
+	position: absolute;
+	display: none;
+	height: 50%;
+	top: 15px;
+	right: 15px;
+	color: white;
+
+}
+#exitfullscreen:hover{
+	cursor: pointer;
+}
+#interback{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#interone{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#interone:hover{
+	cursor: pointer;
+}
+#intertwo{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#intertwo:hover{
+	cursor: pointer;
+}
+#interthree{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#interthree:hover{
+	cursor: pointer;
+}
+#opacity{
+	display: none;
+	position: absolute;
+	top: 10%;
+	width:100%;
+	height: 80%;
+	background-color: white;
+	opacity: 0;
+	z-index: 1;
+}
+ul{
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+	float:left;
+	width: 20%;
+	height: 100%;
+}
+
+.empty{
+	position: absolute;
+	background-color:white;
+	width: 20%;
+	height: 100%;
+	z-index: 10;
+}
